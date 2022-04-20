@@ -1,0 +1,16 @@
+{
+  "name": "hs-scraper",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer": "^10.4.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  },
+  "scripts": {
+    "steal": "node scrape.js && node steal.js"
+  }
+}
